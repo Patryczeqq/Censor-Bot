@@ -1,4 +1,4 @@
-const TOKEN = "NzY4ODQ3NzU0NjIwODI5NzA2.X5GbRQ.3L1a7p_4nOIlFCKWJSXgjAvX3XY" //HIDDEN FOR SECURITY PURPOSES
+const TOKEN = "NzY4ODQ3NzU0NjIwODI5NzA2.X5GbRQ.3lQfTSNtZoiUOUH0PZ4WDSEGEvE" //HIDDEN FOR SECURITY PURPOSES
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
