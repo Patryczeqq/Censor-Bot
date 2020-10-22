@@ -1,4 +1,4 @@
-const TOKEN = "NzY4ODQ3NzU0NjIwODI5NzA2.X5GbRQ.3lQfTSNtZoiUOUH0PZ4WDSEGEvE" //HIDDEN FOR SECURITY PURPOSES
+const {token} = require('./config.json')
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
@@ -7,13 +7,13 @@ client.on('ready', () => {
 
     client.user.setActivity("Out For Bad Words | Made By Spexz", {type: "WATCHING"});
 
-    /*client.guilds.forEach((guild) => {
+    client.guilds.forEach((guild) => {
         guild.channels.forEach((channel) => {
             console.log(` - ${channel.name} ${channel.type} ${channel.id}`)
         })
-    })*/
+    })
 
-    let generalChannel = client.channels.get("738819986776391731");//HIDDEN FOR SECURITY PURPOSES
+    let generalChannel = client.channels.get("738819986776391731");
 
     generalChannel.members.forEach(member => console.log(member.user.id + " Name: " + member.user.username));
     
