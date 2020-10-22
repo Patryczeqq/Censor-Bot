@@ -1,0 +1,10 @@
+{
+  "name": "Censor",
+  "version": "1.0.0",
+  "main": "discord.js",
+  "author": "Spexz",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.4.0"
+  }
+}
